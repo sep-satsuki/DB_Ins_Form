@@ -30,7 +30,7 @@ public class Newtest extends HttpServlet {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		String name = request.getParameter("name");
-		System.out.println(name);
+		System.out.println(name + "!!");
 	}
 
 	/**
